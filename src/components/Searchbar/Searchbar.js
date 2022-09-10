@@ -32,7 +32,6 @@ export default class Searchbar extends Component {
         <form className={css.searchForm} onSubmit={this.handleSabmit}>
           <button type="submit" className={css.searchForm__button}>
             <IoIosSearch size={24} />
-            {/* <span className="button-label">Search</span> */}
           </button>
 
           <input
